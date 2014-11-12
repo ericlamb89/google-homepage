@@ -2,7 +2,7 @@ body{
 	margin: 0px 0px 0px 0px;
 }
 
-ul{
+#header-list{
 	float:right;
 	margin-right: 50px;
 }
@@ -12,11 +12,22 @@ li{
 	font-size: 13px;
 	color: #444;
 	font-family: arial;
-	margin-left: 10px;
+	margin-left: 15px;
+	margin-bottom: 10px;
 }
 
 #header{
 	height: 60px;
+}
+
+#google-apps{
+	padding-bottom:0px;
+}
+
+#profile-pic{
+	width:32px;
+	height:32x;
+	border-radius:16px;
 }
 
 .center{
@@ -93,5 +104,22 @@ li{
 #lucky{
 	margin-left: 15px;
 	margin-right: 15px;
+}
+
+#footer{
+	position:fixed;
+	bottom: 0px;
+	background-color: rgb(245, 242, 242);
+	width: 100%;
+	height: 41px;
+}
+
+#footer-left{
+	float: left;
+	width: 25%;
+}
+#footer-right{
+	float: right;
+	width: 25%;
 }
 
